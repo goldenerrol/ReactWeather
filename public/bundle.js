@@ -26614,6 +26614,16 @@
 	          "Open Weather Map"
 	        ),
 	        " - Open Weather Map was used to search for weather data by city name."
+	      ),
+	      React.createElement(
+	        "li",
+	        null,
+	        React.createElement(
+	          "a",
+	          { href: "https://github.com/goldenerrol/ReactWeather" },
+	          "React Weather on GitHub"
+	        ),
+	        " - See my code on GitHub"
 	      )
 	    )
 	  );
