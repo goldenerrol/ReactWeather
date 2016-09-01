@@ -38,7 +38,6 @@ var Weather = React.createClass({
   componentDidMount: function () {
     //use this to pull the query locations out of the string sent from examples page
     var location = this.props.location.query.location;
-
     if (location && location.length > 0) {
       this.handleSearch(location);
       //clear location query string
